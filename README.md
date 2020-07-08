@@ -19,3 +19,11 @@ MVP
 ## Develop
 
 - `yarn develop`
+
+## Todo
+
+- Add autoprefixing
+- Handle global variables
+- Add detail pages for jobs
+- Improve usability
+- Add more info akin to remote role etc
