@@ -1,0 +1,4 @@
+.jobListings {
+  display: flex;
+  flex-wrap: wrap;
+}

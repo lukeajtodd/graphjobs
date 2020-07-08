@@ -1,0 +1,52 @@
+.listingItem {
+  margin-bottom: 2rem;
+  flex: 0 1 100%;
+}
+
+.listingTitle {
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.listingTags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listingTag {
+  display: inline-block;
+  color: white;
+  padding-right: 0.6rem;
+}
+
+.listingLink {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (hover: hover) {
+  .listingLink:hover::after {
+    content: "";
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+  }
+}

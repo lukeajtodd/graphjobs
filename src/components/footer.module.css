@@ -1,0 +1,19 @@
+.footer {
+  padding: 3rem 3rem;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: underline;
+  margin-left: 6px;
+}
+
+@media (hover: hover) {
+  .footerLink:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
